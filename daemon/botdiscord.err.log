@@ -1,0 +1,1426 @@
+events.js:306
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target: WebSocket {
+    _events: [Object: null prototype] {
+      message: [Function],
+      open: [Function],
+      error: [Function],
+      close: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    readyState: 2,
+    protocol: '',
+    _binaryType: 'nodebuffer',
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: '',
+    _closeTimer: null,
+    _closeCode: 1006,
+    _extensions: {},
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _isServer: false,
+    _redirects: 0,
+    url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+    _req: null,
+    [Symbol(kCapture)]: false
+  },
+  type: 'error',
+  message: 'getaddrinfo ENOTFOUND gateway.discord.gg',
+  error: Error: getaddrinfo ENOTFOUND gateway.discord.gg
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'gateway.discord.gg'
+  }
+})
+    at Client.emit (events.js:304:17)
+    at WebSocketConnection.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:315:20)
+    at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:461:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:100:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:68:3) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: ErrorEvent {
+    target: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 2,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _isServer: false,
+      _redirects: 0,
+      url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+      _req: null,
+      [Symbol(kCapture)]: false
+    },
+    type: 'error',
+    message: 'getaddrinfo ENOTFOUND gateway.discord.gg',
+    error: Error: getaddrinfo ENOTFOUND gateway.discord.gg
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'gateway.discord.gg'
+    }
+  }
+}
+(node:12424) UnhandledPromiseRejectionWarning: Error: connect ETIMEDOUT 162.159.130.233:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1142:16)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12424) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:12424) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:5968) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5968) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:5968) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:6000) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6000) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:6000) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+events.js:306
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target: WebSocket {
+    _events: [Object: null prototype] {
+      message: [Function],
+      open: [Function],
+      error: [Function],
+      close: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    readyState: 2,
+    protocol: '',
+    _binaryType: 'nodebuffer',
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: '',
+    _closeTimer: null,
+    _closeCode: 1006,
+    _extensions: {},
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _isServer: false,
+    _redirects: 0,
+    url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+    _req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 5,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      _header: 'GET /?v=6&encoding=json HTTP/1.1\r\n' +
+        'Sec-WebSocket-Version: 13\r\n' +
+        'Sec-WebSocket-Key: 0EPLhN680cspJpJHkkhWgA==\r\n' +
+        'Connection: Upgrade\r\n' +
+        'Upgrade: websocket\r\n' +
+        'Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits\r\n' +
+        'Host: gateway.discord.gg\r\n' +
+        '\r\n',
+      _onPendingData: [Function: noopPendingOutput],
+      agent: undefined,
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/?v=6&encoding=json',
+      _ended: false,
+      res: [IncomingMessage],
+      aborted: true,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: [HTTPParser],
+      maxHeadersCount: null,
+      reusedSocket: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    [Symbol(kCapture)]: false
+  },
+  type: 'error',
+  message: 'Unexpected server response: 520',
+  error: Error: Unexpected server response: 520
+      at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:595:7)
+      at ClientRequest.emit (events.js:315:20)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:632:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+      at HTTPParser.execute (<anonymous>)
+      at TLSSocket.socketOnData (_http_client.js:501:22)
+      at TLSSocket.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:300:12)
+      at readableAddChunk (_stream_readable.js:276:9)
+      at TLSSocket.Readable.push (_stream_readable.js:217:10)
+})
+    at Client.emit (events.js:304:17)
+    at WebSocketConnection.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:315:20)
+    at abortHandshake (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:718:15)
+    at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:595:7)
+    at ClientRequest.emit (events.js:315:20)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:632:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+    at HTTPParser.execute (<anonymous>) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: ErrorEvent {
+    target: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 2,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _isServer: false,
+      _redirects: 0,
+      url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+      _req: [ClientRequest],
+      [Symbol(kCapture)]: false
+    },
+    type: 'error',
+    message: 'Unexpected server response: 520',
+    error: Error: Unexpected server response: 520
+        at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:595:7)
+        at ClientRequest.emit (events.js:315:20)
+        at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:632:27)
+        at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+        at HTTPParser.execute (<anonymous>)
+        at TLSSocket.socketOnData (_http_client.js:501:22)
+        at TLSSocket.emit (events.js:315:20)
+        at addChunk (_stream_readable.js:300:12)
+        at readableAddChunk (_stream_readable.js:276:9)
+        at TLSSocket.Readable.push (_stream_readable.js:217:10)
+  }
+}
+events.js:306
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target: WebSocket {
+    _events: [Object: null prototype] {
+      message: [Function],
+      open: [Function],
+      error: [Function],
+      close: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    readyState: 2,
+    protocol: '',
+    _binaryType: 'nodebuffer',
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: '',
+    _closeTimer: null,
+    _closeCode: 1006,
+    _extensions: {},
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _isServer: false,
+    _redirects: 0,
+    url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+    _req: null,
+    [Symbol(kCapture)]: false
+  },
+  type: 'error',
+  message: 'connect ETIMEDOUT 162.159.136.234:443',
+  error: Error: connect ETIMEDOUT 162.159.136.234:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1142:16) {
+    errno: -4039,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '162.159.136.234',
+    port: 443
+  }
+})
+    at Client.emit (events.js:304:17)
+    at WebSocketConnection.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:315:20)
+    at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:461:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:100:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:68:3) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: ErrorEvent {
+    target: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 2,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _isServer: false,
+      _redirects: 0,
+      url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+      _req: null,
+      [Symbol(kCapture)]: false
+    },
+    type: 'error',
+    message: 'connect ETIMEDOUT 162.159.136.234:443',
+    error: Error: connect ETIMEDOUT 162.159.136.234:443
+        at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1142:16) {
+      errno: -4039,
+      code: 'ETIMEDOUT',
+      syscall: 'connect',
+      address: '162.159.136.234',
+      port: 443
+    }
+  }
+}
+(node:13600) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:13600) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:13600) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:5888) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5888) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:5888) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+events.js:306
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target: WebSocket {
+    _events: [Object: null prototype] {
+      message: [Function],
+      open: [Function],
+      error: [Function],
+      close: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    readyState: 2,
+    protocol: '',
+    _binaryType: 'nodebuffer',
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: '',
+    _closeTimer: null,
+    _closeCode: 1006,
+    _extensions: {},
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _isServer: false,
+    _redirects: 0,
+    url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+    _req: null,
+    [Symbol(kCapture)]: false
+  },
+  type: 'error',
+  message: 'socket hang up',
+  error: Error: socket hang up
+      at connResetException (internal/errors.js:614:14)
+      at TLSSocket.socketOnEnd (_http_client.js:485:23)
+      at TLSSocket.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1223:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+    code: 'ECONNRESET'
+  }
+})
+    at Client.emit (events.js:304:17)
+    at WebSocketConnection.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:315:20)
+    at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketOnEnd (_http_client.js:485:9)
+    at TLSSocket.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1223:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: ErrorEvent {
+    target: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 2,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _isServer: false,
+      _redirects: 0,
+      url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+      _req: null,
+      [Symbol(kCapture)]: false
+    },
+    type: 'error',
+    message: 'socket hang up',
+    error: Error: socket hang up
+        at connResetException (internal/errors.js:614:14)
+        at TLSSocket.socketOnEnd (_http_client.js:485:23)
+        at TLSSocket.emit (events.js:327:22)
+        at endReadableNT (_stream_readable.js:1223:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      code: 'ECONNRESET'
+    }
+  }
+}
+events.js:306
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target: WebSocket {
+    _events: [Object: null prototype] {
+      message: [Function],
+      open: [Function],
+      error: [Function],
+      close: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    readyState: 2,
+    protocol: '',
+    _binaryType: 'nodebuffer',
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: '',
+    _closeTimer: null,
+    _closeCode: 1006,
+    _extensions: {},
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _isServer: false,
+    _redirects: 0,
+    url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+    _req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 5,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      _header: 'GET /?v=6&encoding=json HTTP/1.1\r\n' +
+        'Sec-WebSocket-Version: 13\r\n' +
+        'Sec-WebSocket-Key: yiECTc/PmyJeGf38CtJq1A==\r\n' +
+        'Connection: Upgrade\r\n' +
+        'Upgrade: websocket\r\n' +
+        'Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits\r\n' +
+        'Host: gateway.discord.gg\r\n' +
+        '\r\n',
+      _onPendingData: [Function: noopPendingOutput],
+      agent: undefined,
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/?v=6&encoding=json',
+      _ended: false,
+      res: [IncomingMessage],
+      aborted: true,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: [HTTPParser],
+      maxHeadersCount: null,
+      reusedSocket: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    [Symbol(kCapture)]: false
+  },
+  type: 'error',
+  message: 'Unexpected server response: 520',
+  error: Error: Unexpected server response: 520
+      at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:595:7)
+      at ClientRequest.emit (events.js:315:20)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:632:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+      at TLSSocket.socketOnData (_http_client.js:501:22)
+      at TLSSocket.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:300:12)
+      at readableAddChunk (_stream_readable.js:276:9)
+      at TLSSocket.Readable.push (_stream_readable.js:217:10)
+      at TLSWrap.onStreamRead (internal/stream_base_commons.js:186:23)
+})
+    at Client.emit (events.js:304:17)
+    at WebSocketConnection.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:315:20)
+    at abortHandshake (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:718:15)
+    at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:595:7)
+    at ClientRequest.emit (events.js:315:20)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:632:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+    at TLSSocket.socketOnData (_http_client.js:501:22) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: ErrorEvent {
+    target: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 2,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _isServer: false,
+      _redirects: 0,
+      url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+      _req: [ClientRequest],
+      [Symbol(kCapture)]: false
+    },
+    type: 'error',
+    message: 'Unexpected server response: 520',
+    error: Error: Unexpected server response: 520
+        at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:595:7)
+        at ClientRequest.emit (events.js:315:20)
+        at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:632:27)
+        at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+        at TLSSocket.socketOnData (_http_client.js:501:22)
+        at TLSSocket.emit (events.js:315:20)
+        at addChunk (_stream_readable.js:300:12)
+        at readableAddChunk (_stream_readable.js:276:9)
+        at TLSSocket.Readable.push (_stream_readable.js:217:10)
+        at TLSWrap.onStreamRead (internal/stream_base_commons.js:186:23)
+  }
+}
+events.js:306
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target: WebSocket {
+    _events: [Object: null prototype] {
+      message: [Function],
+      open: [Function],
+      error: [Function],
+      close: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    readyState: 2,
+    protocol: '',
+    _binaryType: 'nodebuffer',
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: '',
+    _closeTimer: null,
+    _closeCode: 1006,
+    _extensions: {},
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _isServer: false,
+    _redirects: 0,
+    url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+    _req: null,
+    [Symbol(kCapture)]: false
+  },
+  type: 'error',
+  message: 'getaddrinfo ENOTFOUND gateway.discord.gg',
+  error: Error: getaddrinfo ENOTFOUND gateway.discord.gg
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'gateway.discord.gg'
+  }
+})
+    at Client.emit (events.js:304:17)
+    at WebSocketConnection.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:315:20)
+    at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:461:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:100:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:68:3) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: ErrorEvent {
+    target: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 2,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _isServer: false,
+      _redirects: 0,
+      url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+      _req: null,
+      [Symbol(kCapture)]: false
+    },
+    type: 'error',
+    message: 'getaddrinfo ENOTFOUND gateway.discord.gg',
+    error: Error: getaddrinfo ENOTFOUND gateway.discord.gg
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'gateway.discord.gg'
+    }
+  }
+}
+events.js:306
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target: WebSocket {
+    _events: [Object: null prototype] {
+      message: [Function],
+      open: [Function],
+      error: [Function],
+      close: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    readyState: 2,
+    protocol: '',
+    _binaryType: 'nodebuffer',
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: '',
+    _closeTimer: null,
+    _closeCode: 1006,
+    _extensions: {},
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _isServer: false,
+    _redirects: 0,
+    url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+    _req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 5,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      _header: 'GET /?v=6&encoding=json HTTP/1.1\r\n' +
+        'Sec-WebSocket-Version: 13\r\n' +
+        'Sec-WebSocket-Key: YYgwIQPXtw3FqwUgwzEaXg==\r\n' +
+        'Connection: Upgrade\r\n' +
+        'Upgrade: websocket\r\n' +
+        'Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits\r\n' +
+        'Host: gateway.discord.gg\r\n' +
+        '\r\n',
+      _onPendingData: [Function: noopPendingOutput],
+      agent: undefined,
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/?v=6&encoding=json',
+      _ended: false,
+      res: [IncomingMessage],
+      aborted: true,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: [HTTPParser],
+      maxHeadersCount: null,
+      reusedSocket: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    [Symbol(kCapture)]: false
+  },
+  type: 'error',
+  message: 'Unexpected server response: 520',
+  error: Error: Unexpected server response: 520
+      at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:595:7)
+      at ClientRequest.emit (events.js:315:20)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:632:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+      at TLSSocket.socketOnData (_http_client.js:501:22)
+      at TLSSocket.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:300:12)
+      at readableAddChunk (_stream_readable.js:276:9)
+      at TLSSocket.Readable.push (_stream_readable.js:217:10)
+      at TLSWrap.onStreamRead (internal/stream_base_commons.js:186:23)
+})
+    at Client.emit (events.js:304:17)
+    at WebSocketConnection.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:315:20)
+    at abortHandshake (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:718:15)
+    at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:595:7)
+    at ClientRequest.emit (events.js:315:20)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:632:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+    at TLSSocket.socketOnData (_http_client.js:501:22) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: ErrorEvent {
+    target: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 2,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _isServer: false,
+      _redirects: 0,
+      url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+      _req: [ClientRequest],
+      [Symbol(kCapture)]: false
+    },
+    type: 'error',
+    message: 'Unexpected server response: 520',
+    error: Error: Unexpected server response: 520
+        at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:595:7)
+        at ClientRequest.emit (events.js:315:20)
+        at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:632:27)
+        at HTTPParser.parserOnHeadersComplete (_http_common.js:117:17)
+        at TLSSocket.socketOnData (_http_client.js:501:22)
+        at TLSSocket.emit (events.js:315:20)
+        at addChunk (_stream_readable.js:300:12)
+        at readableAddChunk (_stream_readable.js:276:9)
+        at TLSSocket.Readable.push (_stream_readable.js:217:10)
+        at TLSWrap.onStreamRead (internal/stream_base_commons.js:186:23)
+  }
+}
+(node:1600) UnhandledPromiseRejectionWarning: DiscordAPIError: Unknown Channel
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\snekfetch\src\index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1600) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+(node:1600) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:1600) UnhandledPromiseRejectionWarning: DiscordAPIError: Unknown Channel
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\snekfetch\src\index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:1600) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+(node:1600) UnhandledPromiseRejectionWarning: DiscordAPIError: Unknown Channel
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\snekfetch\src\index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:1600) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 7)
+(node:1600) UnhandledPromiseRejectionWarning: DiscordAPIError: Unknown Channel
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\snekfetch\src\index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:1600) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 9)
+(node:1600) UnhandledPromiseRejectionWarning: DiscordAPIError: Unknown Channel
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\snekfetch\src\index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:1600) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 12)
+(node:1600) UnhandledPromiseRejectionWarning: DiscordAPIError: Unknown Channel
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\snekfetch\src\index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:1600) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 14)
+(node:1600) UnhandledPromiseRejectionWarning: DiscordAPIError: Unknown Channel
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\snekfetch\src\index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:1600) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 16)
+(node:1600) UnhandledPromiseRejectionWarning: DiscordAPIError: Unknown Channel
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15
+    at C:\Users\Pasha\Desktop\discord bot\node_modules\snekfetch\src\index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+(node:1600) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 18)
+(node:4444) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 closing listeners added to [VoiceConnection]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6904) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 closing listeners added to [VoiceConnection]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+events.js:306
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target: WebSocket {
+    _events: [Object: null prototype] {
+      message: [Function],
+      open: [Function],
+      error: [Function],
+      close: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    readyState: 2,
+    protocol: '',
+    _binaryType: 'nodebuffer',
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: '',
+    _closeTimer: null,
+    _closeCode: 1006,
+    _extensions: {},
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _isServer: false,
+    _redirects: 0,
+    url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+    _req: null,
+    [Symbol(kCapture)]: false
+  },
+  type: 'error',
+  message: 'connect ETIMEDOUT 162.159.133.234:443',
+  error: Error: connect ETIMEDOUT 162.159.133.234:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1142:16) {
+    errno: -4039,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '162.159.133.234',
+    port: 443
+  }
+})
+    at Client.emit (events.js:304:17)
+    at WebSocketConnection.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:315:20)
+    at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:461:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:100:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:68:3) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: ErrorEvent {
+    target: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 2,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _isServer: false,
+      _redirects: 0,
+      url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+      _req: null,
+      [Symbol(kCapture)]: false
+    },
+    type: 'error',
+    message: 'connect ETIMEDOUT 162.159.133.234:443',
+    error: Error: connect ETIMEDOUT 162.159.133.234:443
+        at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1142:16) {
+      errno: -4039,
+      code: 'ETIMEDOUT',
+      syscall: 'connect',
+      address: '162.159.133.234',
+      port: 443
+    }
+  }
+}
+(node:12560) UnhandledPromiseRejectionWarning: Error: connect ETIMEDOUT 162.159.133.233:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1142:16)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12560) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:12560) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:6396) UnhandledPromiseRejectionWarning: Error: connect ETIMEDOUT 162.159.129.233:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1142:16)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6396) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:6396) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+events.js:306
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target: WebSocket {
+    _events: [Object: null prototype] {
+      message: [Function],
+      open: [Function],
+      error: [Function],
+      close: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    readyState: 2,
+    protocol: '',
+    _binaryType: 'nodebuffer',
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: '',
+    _closeTimer: null,
+    _closeCode: 1006,
+    _extensions: {},
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _isServer: false,
+    _redirects: 0,
+    url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+    _req: null,
+    [Symbol(kCapture)]: false
+  },
+  type: 'error',
+  message: 'getaddrinfo ENOTFOUND gateway.discord.gg',
+  error: Error: getaddrinfo ENOTFOUND gateway.discord.gg
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'gateway.discord.gg'
+  }
+})
+    at Client.emit (events.js:304:17)
+    at WebSocketConnection.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:315:20)
+    at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:461:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:100:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:68:3) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: ErrorEvent {
+    target: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 2,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _isServer: false,
+      _redirects: 0,
+      url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+      _req: null,
+      [Symbol(kCapture)]: false
+    },
+    type: 'error',
+    message: 'getaddrinfo ENOTFOUND gateway.discord.gg',
+    error: Error: getaddrinfo ENOTFOUND gateway.discord.gg
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'gateway.discord.gg'
+    }
+  }
+}
+(node:15772) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15772) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:15772) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+events.js:306
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target: WebSocket {
+    _events: [Object: null prototype] {
+      message: [Function],
+      open: [Function],
+      error: [Function],
+      close: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    readyState: 2,
+    protocol: '',
+    _binaryType: 'nodebuffer',
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: '',
+    _closeTimer: null,
+    _closeCode: 1006,
+    _extensions: {},
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _isServer: false,
+    _redirects: 0,
+    url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+    _req: null,
+    [Symbol(kCapture)]: false
+  },
+  type: 'error',
+  message: 'getaddrinfo ENOTFOUND gateway.discord.gg',
+  error: Error: getaddrinfo ENOTFOUND gateway.discord.gg
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'gateway.discord.gg'
+  }
+})
+    at Client.emit (events.js:304:17)
+    at WebSocketConnection.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:315:20)
+    at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:461:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:100:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:68:3) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: ErrorEvent {
+    target: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 2,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _isServer: false,
+      _redirects: 0,
+      url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+      _req: null,
+      [Symbol(kCapture)]: false
+    },
+    type: 'error',
+    message: 'getaddrinfo ENOTFOUND gateway.discord.gg',
+    error: Error: getaddrinfo ENOTFOUND gateway.discord.gg
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'gateway.discord.gg'
+    }
+  }
+}
+(node:3112) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3112) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:3112) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+events.js:306
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target: WebSocket {
+    _events: [Object: null prototype] {
+      message: [Function],
+      open: [Function],
+      error: [Function],
+      close: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    readyState: 2,
+    protocol: '',
+    _binaryType: 'nodebuffer',
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: '',
+    _closeTimer: null,
+    _closeCode: 1006,
+    _extensions: {},
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _isServer: false,
+    _redirects: 0,
+    url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+    _req: null,
+    [Symbol(kCapture)]: false
+  },
+  type: 'error',
+  message: 'connect ETIMEDOUT 162.159.134.234:443',
+  error: Error: connect ETIMEDOUT 162.159.134.234:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1142:16) {
+    errno: -4039,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '162.159.134.234',
+    port: 443
+  }
+})
+    at Client.emit (events.js:304:17)
+    at WebSocketConnection.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:315:20)
+    at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:461:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:100:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:68:3) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: ErrorEvent {
+    target: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 2,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _isServer: false,
+      _redirects: 0,
+      url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+      _req: null,
+      [Symbol(kCapture)]: false
+    },
+    type: 'error',
+    message: 'connect ETIMEDOUT 162.159.134.234:443',
+    error: Error: connect ETIMEDOUT 162.159.134.234:443
+        at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1142:16) {
+      errno: -4039,
+      code: 'ETIMEDOUT',
+      syscall: 'connect',
+      address: '162.159.134.234',
+      port: 443
+    }
+  }
+}
+(node:11372) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11372) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:11372) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+events.js:306
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target: WebSocket {
+    _events: [Object: null prototype] {
+      message: [Function],
+      open: [Function],
+      error: [Function],
+      close: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    readyState: 2,
+    protocol: '',
+    _binaryType: 'nodebuffer',
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: '',
+    _closeTimer: null,
+    _closeCode: 1006,
+    _extensions: {},
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _isServer: false,
+    _redirects: 0,
+    url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+    _req: null,
+    [Symbol(kCapture)]: false
+  },
+  type: 'error',
+  message: 'connect ETIMEDOUT 162.159.134.234:443',
+  error: Error: connect ETIMEDOUT 162.159.134.234:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1142:16) {
+    errno: -4039,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '162.159.134.234',
+    port: 443
+  }
+})
+    at Client.emit (events.js:304:17)
+    at WebSocketConnection.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:315:20)
+    at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:461:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:100:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:68:3) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: ErrorEvent {
+    target: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 2,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _isServer: false,
+      _redirects: 0,
+      url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+      _req: null,
+      [Symbol(kCapture)]: false
+    },
+    type: 'error',
+    message: 'connect ETIMEDOUT 162.159.134.234:443',
+    error: Error: connect ETIMEDOUT 162.159.134.234:443
+        at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1142:16) {
+      errno: -4039,
+      code: 'ETIMEDOUT',
+      syscall: 'connect',
+      address: '162.159.134.234',
+      port: 443
+    }
+  }
+}
+(node:23856) UnhandledPromiseRejectionWarning: Error: connect ETIMEDOUT 162.159.130.233:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1142:16)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23856) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:23856) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+events.js:306
+    throw err; // Unhandled 'error' event
+    ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. (ErrorEvent {
+  target: WebSocket {
+    _events: [Object: null prototype] {
+      message: [Function],
+      open: [Function],
+      error: [Function],
+      close: [Function]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    readyState: 2,
+    protocol: '',
+    _binaryType: 'nodebuffer',
+    _closeFrameReceived: false,
+    _closeFrameSent: false,
+    _closeMessage: '',
+    _closeTimer: null,
+    _closeCode: 1006,
+    _extensions: {},
+    _receiver: null,
+    _sender: null,
+    _socket: null,
+    _isServer: false,
+    _redirects: 0,
+    url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+    _req: null,
+    [Symbol(kCapture)]: false
+  },
+  type: 'error',
+  message: 'getaddrinfo ENOTFOUND gateway.discord.gg',
+  error: Error: getaddrinfo ENOTFOUND gateway.discord.gg
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'gateway.discord.gg'
+  }
+})
+    at Client.emit (events.js:304:17)
+    at WebSocketConnection.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:315:20)
+    at ClientRequest.<anonymous> (C:\Users\Pasha\Desktop\discord bot\node_modules\ws\lib\websocket.js:568:15)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:461:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:100:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:68:3) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: ErrorEvent {
+    target: WebSocket {
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      readyState: 2,
+      protocol: '',
+      _binaryType: 'nodebuffer',
+      _closeFrameReceived: false,
+      _closeFrameSent: false,
+      _closeMessage: '',
+      _closeTimer: null,
+      _closeCode: 1006,
+      _extensions: {},
+      _receiver: null,
+      _sender: null,
+      _socket: null,
+      _isServer: false,
+      _redirects: 0,
+      url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+      _req: null,
+      [Symbol(kCapture)]: false
+    },
+    type: 'error',
+    message: 'getaddrinfo ENOTFOUND gateway.discord.gg',
+    error: Error: getaddrinfo ENOTFOUND gateway.discord.gg
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'gateway.discord.gg'
+    }
+  }
+}
+(node:4604) UnhandledPromiseRejectionWarning: Error: getaddrinfo ENOTFOUND discordapp.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4604) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:4604) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
