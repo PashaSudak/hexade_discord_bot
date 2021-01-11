@@ -15,16 +15,13 @@ client.on('ready', () => {
     });
 });
 
-client.on('message', message => {
+client.on('message', async message => {
   if (message.content === `AYAYA`){
-    console.log();
-    const channel = client.channels.get(message.member.voiceChannelID);
-    if (!channel) return console.error("The channel does not exist!");
-    channel.join().then(connection => {
-    console.log("Successfully connected.");
-   }).catch(e => {
-      console.error(e);
-    });
+    if (message.member.voice.channel) {
+      const connection = await message.member.voice.channel.join();
+    } else {
+      message.channel.send('You need to join a voice channel first!');
+    }
   }
 });
 
