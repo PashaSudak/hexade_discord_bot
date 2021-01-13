@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require('./config.js')
+const ytdl = require('ytdl-core-discord');
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -16,7 +17,9 @@ client.on('ready', () => {
 });
 
 client.on('message', async message => {
-  if (message.content === `AYAYA`){
+  message.content = message.content.toLowerCase();
+  
+  if (message.content === `ayaya`){
     if (message.member.voice.channel) {
       const connection = await message.member.voice.channel.join();
     } else {
